@@ -1,0 +1,19 @@
+package ejemplo;
+
+import java.util.Scanner;
+
+public class ejemplo {
+
+	public static void main(String[] args) {
+		// aaaaa
+		Scanner ejemplo = new Scanner (System.in);
+		System.out.print("Introduce tu nombre: ");
+		String nombre = ejemplo.nextLine();
+		System.out.print("Introduce tu edad: ");
+		String edadAux = ejemplo.nextLine();
+		int edad = Integer.parseInt(edadAux);
+		System.out.println("Tu nombre es " + nombre + " y tu edad es " + edad);
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package ejemplo;
+
+import java.util.Scanner;
+
+public class ejemplo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner ejemplo = new Scanner (System.in);
+		System.out.println("dime unas palabras");
+		String cadena = ejemplo.nextLine();
+		System.out.println("has dicho "+cadena);
+
+	}
+
+}
